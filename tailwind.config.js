@@ -1,0 +1,65 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      fontFamily: {
+        display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      colors: {
+        cream: {
+          50: '#FCF6E8',
+          100: '#FCF5E2',
+          200: '#FDF3DF',
+          300: '#FAEDD4',
+          400: '#F2E2BD',
+          500: '#E8D29A',
+          600: '#C9B077',
+        },
+        martini: {
+          50: '#F4EFD2',
+          100: '#E8DDA8',
+          200: '#D6CB87',
+          300: '#C5B364',
+          400: '#B9A753',
+          500: '#AF9B3F',
+          600: '#98852F',
+          700: '#7A6A24',
+        },
+        rust: {
+          50: '#F8E6DD',
+          100: '#F0CDBE',
+          200: '#E2A892',
+          300: '#D38468',
+          400: '#C7553A',
+          500: '#AA462B',
+          600: '#9A351C',
+          700: '#7E2B16',
+          800: '#5C1F0F',
+        },
+        violet: {
+          50: '#E9DCEF',
+          100: '#C9AED4',
+          200: '#A687B5',
+          300: '#8460A0',
+          400: '#6D457C',
+          500: '#572C66',
+          600: '#3B174E',
+          700: '#2D0D3D',
+          800: '#1F082B',
+        },
+        chocolate: {
+          50: '#5A4D4F',
+          100: '#4A3F41',
+          200: '#3A2F31',
+          300: '#2D292A',
+          400: '#201B1D',
+          500: '#130D11',
+          600: '#0A0609',
+        },
+      },
+    },
+  },
+  plugins: [],
+};
